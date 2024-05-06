@@ -7,15 +7,12 @@ for (i = 0; i < buttons.length; ++i) {
     var d_type = e.target.dataset.vjs_type; 
     var d_content = e.target.dataset.vjs_content; 
     if(d_type){
-   
      var modal = document.createElement('div');
      modal.style.cssText = '';
      modal.classList.add('modal')
      modal.id = 'MyModal'
-
      modal.innerHTML = '<div class="modal-content animate"><span id="vjs-modal-close" onclick="vjsModalClose()">&times;</span><p>'+d_content+'</p></div>'
-
-    document.body.appendChild(modal);
+     document.body.appendChild(modal);
 
     }else{
       alert('no type')

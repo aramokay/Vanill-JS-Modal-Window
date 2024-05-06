@@ -11,7 +11,10 @@
 <body>
 
   <div class="container">
-    <h1>Vanilla JS simple, open source modal window</h1>
+    <h1 class="title">
+      Vanilla JS simple, open source modal window
+      <span class="version">v 0.1.1</span>
+    </h1>
       
     <div class="demo-buttons">
         <button 
@@ -21,7 +24,10 @@
               >
           Standart Moadal
         </button>
-        <button class="btns btns-danger vjs-modal">Danger Modal</button>
+        <button class="btns btns-danger vjs-modal"
+                data-vjs_type="danger"
+                data-vjs_content="<h4>This is demo text</h4> The modal window allows you to display content or messages in a pop-up overlay on your webpage."
+        >Danger Modal</button>
         <button class="btns">Custom modal</button>
     </div>
 
