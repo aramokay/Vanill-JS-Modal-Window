@@ -14,14 +14,28 @@
     <h1>Vanilla JS simple, open source modal window</h1>
       
     <div class="demo-buttons">
-        <button class="btns btns-standart">Standart Moadal</button>
-        <button class="btns btns-danger">Danger Modal</button>
+        <button 
+               class="btns btns-standart vjs-modal"
+               data-vjs_type="standart"
+               data-vjs_content="Content in Modal"
+              >
+          Standart Moadal
+        </button>
+        <button class="btns btns-danger vjs-modal">Danger Modal</button>
         <button class="btns">Custom modal</button>
-      </div>
+    </div>
 
   </div>
-  
 
+
+  <!--<div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Some text in the Modal..</p>
+    </div>
+  </div>-->
+  
+   <script src="/assets/js/simplejs-modal.js"></script>
   
 </body>
 </html>
