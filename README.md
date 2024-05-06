@@ -3,7 +3,7 @@
 [![Modal window in Vanilla Javascript](https://github.com/josenavarrohub/vanilla-js-modal-window/blob/main/demo.png?raw=true)](https://github.com/aramokay)
 
 ## Demo
-[https://github.com/aramokay](https://github.com/aramokay)
+[https://github.com/aramokay](https://aramokay.github.io/Vanill-JS-Modal-Window/)
 
 ## Author
 
