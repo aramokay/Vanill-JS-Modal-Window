@@ -10,10 +10,10 @@ for (i = 0; i < buttons.length; ++i) {
    
      var modal = document.createElement('div');
      modal.style.cssText = '';
-     modal.classList = 'modal'
+     modal.classList.add('modal')
      modal.id = 'MyModal'
 
-     modal.innerHTML = '<div class="modal-content"><span id="vjs-modal-close" onclick="vjsModalClose()">&times;</span><p>'+d_content+'</p></div>'
+     modal.innerHTML = '<div class="modal-content animate"><span id="vjs-modal-close" onclick="vjsModalClose()">&times;</span><p>'+d_content+'</p></div>'
 
     document.body.appendChild(modal);
 

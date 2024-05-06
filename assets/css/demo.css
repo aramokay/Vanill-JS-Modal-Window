@@ -71,7 +71,7 @@ h1,h2,h3,h4{
  /* display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 150px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -87,7 +87,7 @@ h1,h2,h3,h4{
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 50%;
 }
 
 /* The Close Button */
@@ -104,3 +104,20 @@ h1,h2,h3,h4{
   text-decoration: none;
   cursor: pointer;
 }
+
+@keyframes append-animate {
+	from {
+		transform: translateY(-500px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0px);
+		opacity: 1;	
+	}
+}
+
+/* animate new box */
+.animate{
+	animation: append-animate .2s linear;
+}
+
