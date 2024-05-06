@@ -1,10 +1,10 @@
 # Vanill JS Modal Window
 
-[![Modal window in Vanilla Javascript](https://github.com/josenavarrohub/vanilla-js-modal-window/blob/main/demo.png?raw=true)](https://josenavarrohub.github.io/vanilla-js-modal-window/)
+[![Modal window in Vanilla Javascript](https://github.com/josenavarrohub/vanilla-js-modal-window/blob/main/demo.png?raw=true)](https://github.com/aramokay)
 
 ## Demo
-[https://josenavarrohub.github.io/vanilla-js-modal-window/](https://josenavarrohub.github.io/vanilla-js-modal-window/)
+[https://github.com/aramokay](https://github.com/aramokay)
 
 ## Author
 
-* **José Navarro** - [View LinkedIn profile](https://www.linkedin.com/in/josenavarroortiz/)
+#### Aram Sargsyan - [View profile](https://github.com/aramokay)
