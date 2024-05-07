@@ -5,6 +5,8 @@
 --orange-wheel: #f77f00ff;
 --xanthous: #fcbf49ff;
 --vanilla: #eae2b7ff;
+--light-gray: #f0f0f0;
+--light-gray-border: #e0e0e0;
 }
 *{
   margin: 0;
@@ -63,14 +65,22 @@ h1,h2,h3,h4{
   align-items: center;
 }
 .title{
-  display: flex;
+  position: relative;
   text-align: center;
 }
 .version{
   color: var(--orange-wheel);
+  display: inline-block;
   font-size: 10px;
   letter-spacing: -1px;
   vertical-align: auto;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: var(--light-gray);
+  border: 1px solid var(--light-gray-border);
 }
 
 /***************Modal********/
